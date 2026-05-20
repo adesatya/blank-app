@@ -10,7 +10,7 @@ opsi = st.sidebar.selectbox("Pilih Model:", ["Klasifikasi", "Regresi"])
 
 # Load Model & Data
 model = pickle.load(open("models/model.pkl", "rb"))
-data = pd.read_csv("data/dataset.csv")
+data = pd.read_csv("data/02_realisasi_anggaran_klassifikasi.csv")
 st.dataframe(data.head())
 
 # Prediksi
