@@ -1,1 +1,5 @@
 streamlit
+altair
+orange3
+pandas
+numpy
